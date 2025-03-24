@@ -1,0 +1,32 @@
+.questionBox {
+    background-color: #282a2e;
+    border: 2px solid #c5c8c6;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 90%;
+    max-width: 500px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.optionButton {
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f92672;
+    color: #f8f8f2;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.optionButton:hover {
+    background-color: #ff66a5;
+}

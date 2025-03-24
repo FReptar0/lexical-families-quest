@@ -1,0 +1,25 @@
+.scoreBoard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.table {
+    width: 90%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th,
+.table td {
+    border: 1px solid #c5c8c6;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #282a2e;
+    font-weight: bold;
+}
